@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="161809" started-at="2020-09-10T19:39:29Z" finished-at="2020-09-10T19:42:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="161809" started-at="2020-09-10T19:39:29Z" finished-at="2020-09-10T19:42:11Z">
+      <class name="Practice.Appium_Framework.MyCoursesTest">
+        <test-method status="PASS" signature="selectAndVerifyCourse()[pri:0, instance:Practice.Appium_Framework.MyCoursesTest@5ce81285]" name="selectAndVerifyCourse" duration-ms="18552" started-at="2020-09-11T01:10:17Z" finished-at="2020-09-11T01:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAndVerifyCourse -->
+      </class> <!-- Practice.Appium_Framework.MyCoursesTest -->
+      <class name="Practice.Appium_Framework.OpenCoursePlayVideoTest">
+        <test-method status="PASS" signature="OpenAndPlayCourse()[pri:0, instance:Practice.Appium_Framework.OpenCoursePlayVideoTest@78c03f1f]" name="OpenAndPlayCourse" duration-ms="79255" started-at="2020-09-11T01:10:36Z" finished-at="2020-09-11T01:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAndPlayCourse -->
+      </class> <!-- Practice.Appium_Framework.OpenCoursePlayVideoTest -->
+      <class name="Practice.Appium_Framework.SigninTest">
+        <test-method status="PASS" signature="openSession()[pri:0, instance:Practice.Appium_Framework.SigninTest@52a86356]" name="openSession" is-config="true" duration-ms="20007" started-at="2020-09-11T01:09:29Z" finished-at="2020-09-11T01:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSession -->
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:Practice.Appium_Framework.SigninTest@52a86356]" name="OpenApp" duration-ms="9228" started-at="2020-09-11T01:09:49Z" finished-at="2020-09-11T01:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:Practice.Appium_Framework.SigninTest@52a86356]" name="signIn" duration-ms="18972" started-at="2020-09-11T01:09:58Z" depends-on-methods="Practice.Appium_Framework.SigninTest.OpenApp" finished-at="2020-09-11T01:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- Practice.Appium_Framework.SigninTest -->
+      <class name="Practice.Appium_Framework.SignoutTest">
+        <test-method status="PASS" signature="SignOutApp()[pri:0, instance:Practice.Appium_Framework.SignoutTest@5ec0a365]" name="SignOutApp" duration-ms="15768" started-at="2020-09-11T01:11:55Z" finished-at="2020-09-11T01:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOutApp -->
+      </class> <!-- Practice.Appium_Framework.SignoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
